@@ -6,6 +6,7 @@
 #include <iostream>
 
 int main(int argc, char **argv) {
+  std::cout << std::boolalpha;
   if (argc == 1)
     return 1;
   searchable_bag *t = new searchable_tree_bag;
